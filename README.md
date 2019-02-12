@@ -53,7 +53,7 @@ git flow release start 0.1.0
 ### Finishing a release branch
 ```bash
 git checkout master
-git checkout merge release/0.1.0
+git merge release/0.1.0
 git flow release finish '0.1.0'
 ```
 
@@ -67,5 +67,3 @@ git flow hotfix start hotfix_branch
 ```bash
 git flow hotfix finish hotfix_branch
 ```
-
-BUG
